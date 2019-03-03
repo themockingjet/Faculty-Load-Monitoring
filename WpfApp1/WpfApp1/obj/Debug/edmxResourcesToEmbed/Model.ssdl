@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="classscheduleModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.5" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="open_subjects">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="subject_code" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="semester" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="sy" Type="varchar" MaxLength="11" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_room_schedule_backup">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="subject_code" Type="int" Nullable="false" />
+    <Property Name="semester" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="start_time" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="end_time" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="days" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="room_id" Type="int" Nullable="false" />
+    <Property Name="instructor_id" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="sy" Type="varchar" MaxLength="11" Nullable="false" />
+    <Property Name="item_color" Type="int" Nullable="false" />
+    <Property Name="void" Type="bool" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblaccounts">
+    <Key>
+      <PropertyRef Name="user_id" />
+    </Key>
+    <Property Name="user_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="user_info" Type="int" Nullable="false" />
+    <Property Name="username" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="user_type" Type="int" Nullable="false" />
+    <Property Name="question" Type="text" Nullable="false" />
+    <Property Name="answer" Type="text" Nullable="false" />
+    <Property Name="added_by" Type="varchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblbgy">
+    <Key>
+      <PropertyRef Name="bgy_id" />
+    </Key>
+    <Property Name="bgy_id" Type="int" Nullable="false" />
+    <Property Name="bgy_name" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="muncit_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblcourse">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Course" Type="varchar" MaxLength="20" />
+    <Property Name="Description" Type="text" />
+  </EntityType>
+  <EntityType Name="tblins">
+    <Key>
+      <PropertyRef Name="I_ID" />
+    </Key>
+    <Property Name="I_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="title" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="LName" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="FName" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Mname" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Gender" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="Address" Type="text" Nullable="false" />
+    <Property Name="Contact" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="Picture" Type="longblob" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblmuncit">
+    <Key>
+      <PropertyRef Name="muncit_id" />
+    </Key>
+    <Property Name="muncit_id" Type="int" Nullable="false" />
+    <Property Name="muncit_name" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="prov_id" Type="int" Nullable="false" />
+    <Property Name="submun" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblprov">
+    <Key>
+      <PropertyRef Name="prov_id" />
+    </Key>
+    <Property Name="prov_id" Type="int" Nullable="false" />
+    <Property Name="prov_name" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="reg_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblreg">
+    <Key>
+      <PropertyRef Name="reg_id" />
+    </Key>
+    <Property Name="reg_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="reg_name" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblroom">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Room" Type="varchar" MaxLength="20" />
+    <Property Name="Capacity" Type="int" />
+  </EntityType>
+  <EntityType Name="tblscheds">
+    <Key>
+      <PropertyRef Name="sID" />
+    </Key>
+    <Property Name="sID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="day" Type="int" Nullable="false" />
+    <Property Name="room" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="ins" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="scode" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="type" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="course" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="section" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="spos" Type="int" Nullable="false" />
+    <Property Name="epos" Type="int" Nullable="false" />
+    <Property Name="rspan" Type="int" Nullable="false" />
+    <Property Name="sem" Type="int" Nullable="false" />
+    <Property Name="sy" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="stime" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="etime" Type="varchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblschoolyr">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="sy" Type="int" />
+    <Property Name="ey" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblsubbgy">
+    <Key>
+      <PropertyRef Name="subbgy_id" />
+    </Key>
+    <Property Name="subbgy_id" Type="int" Nullable="false" />
+    <Property Name="subbgy_name" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="submun_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblsubject">
+    <Key>
+      <PropertyRef Name="Subject_Code" />
+    </Key>
+    <Property Name="Subject_Code" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Description" Type="text" />
+    <Property Name="Units" Type="int" />
+    <Property Name="Lab" Type="int" />
+    <Property Name="Year" Type="varchar" MaxLength="10" />
+    <Property Name="courses" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblsubmun">
+    <Key>
+      <PropertyRef Name="submun_id" />
+    </Key>
+    <Property Name="submun_id" Type="int" Nullable="false" />
+    <Property Name="submun_name" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="muncit_id" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="fk_tblsubject">
+    <End Role="tblsubject" Type="Self.tblsubject" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="open_subjects" Type="Self.open_subjects" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblsubject">
+        <PropertyRef Name="Subject_Code" />
+      </Principal>
+      <Dependent Role="open_subjects">
+        <PropertyRef Name="subject_code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="tblbgy_ibfk_1">
+    <End Role="tblmuncit" Type="Self.tblmuncit" Multiplicity="1" />
+    <End Role="tblbgy" Type="Self.tblbgy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblmuncit">
+        <PropertyRef Name="muncit_id" />
+      </Principal>
+      <Dependent Role="tblbgy">
+        <PropertyRef Name="muncit_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="tblmuncit_ibfk_1">
+    <End Role="tblprov" Type="Self.tblprov" Multiplicity="1" />
+    <End Role="tblmuncit" Type="Self.tblmuncit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblprov">
+        <PropertyRef Name="prov_id" />
+      </Principal>
+      <Dependent Role="tblmuncit">
+        <PropertyRef Name="prov_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="tblprov_ibfk_1">
+    <End Role="tblreg" Type="Self.tblreg" Multiplicity="1" />
+    <End Role="tblprov" Type="Self.tblprov" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblreg">
+        <PropertyRef Name="reg_id" />
+      </Principal>
+      <Dependent Role="tblprov">
+        <PropertyRef Name="reg_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="tblsubbgy_ibfk_1">
+    <End Role="tblsubmun" Type="Self.tblsubmun" Multiplicity="1" />
+    <End Role="tblsubbgy" Type="Self.tblsubbgy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblsubmun">
+        <PropertyRef Name="submun_id" />
+      </Principal>
+      <Dependent Role="tblsubbgy">
+        <PropertyRef Name="submun_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="tblsubmun_ibfk_1">
+    <End Role="tblmuncit" Type="Self.tblmuncit" Multiplicity="1" />
+    <End Role="tblsubmun" Type="Self.tblsubmun" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblmuncit">
+        <PropertyRef Name="muncit_id" />
+      </Principal>
+      <Dependent Role="tblsubmun">
+        <PropertyRef Name="muncit_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="classscheduleModelStoreContainer">
+    <EntitySet Name="open_subjects" EntityType="Self.open_subjects" Schema="classschedule" store:Type="Tables" />
+    <EntitySet Name="tbl_room_schedule_backup" EntityType="Self.tbl_room_schedule_backup" Schema="classschedule" store:Type="Tables" />
+    <EntitySet Name="tblaccounts" EntityType="Self.tblaccounts" Schema="classschedule" store:Type="Tables" />
+    <EntitySet Name="tblbgy" EntityType="Self.tblbgy" Schema="classschedule" store:Type="Tables" />
+    <EntitySet Name="tblcourse" EntityType="Self.tblcourse" Schema="classschedule" store:Type="Tables" />
+    <EntitySet Name="tblins" EntityType="Self.tblins" Schema="classschedule" store:Type="Tables" />
+    <EntitySet Name="tblmuncit" EntityType="Self.tblmuncit" Schema="classschedule" store:Type="Tables" />
+    <EntitySet Name="tblprov" EntityType="Self.tblprov" Schema="classschedule" store:Type="Tables" />
+    <EntitySet Name="tblreg" EntityType="Self.tblreg" Schema="classschedule" store:Type="Tables" />
+    <EntitySet Name="tblroom" EntityType="Self.tblroom" Schema="classschedule" store:Type="Tables" />
+    <EntitySet Name="tblscheds" EntityType="Self.tblscheds" Schema="classschedule" store:Type="Tables" />
+    <EntitySet Name="tblschoolyr" EntityType="Self.tblschoolyr" Schema="classschedule" store:Type="Tables" />
+    <EntitySet Name="tblsubbgy" EntityType="Self.tblsubbgy" Schema="classschedule" store:Type="Tables" />
+    <EntitySet Name="tblsubject" EntityType="Self.tblsubject" Schema="classschedule" store:Type="Tables" />
+    <EntitySet Name="tblsubmun" EntityType="Self.tblsubmun" Schema="classschedule" store:Type="Tables" />
+    <AssociationSet Name="fk_tblsubject" Association="Self.fk_tblsubject">
+      <End Role="tblsubject" EntitySet="tblsubject" />
+      <End Role="open_subjects" EntitySet="open_subjects" />
+    </AssociationSet>
+    <AssociationSet Name="tblbgy_ibfk_1" Association="Self.tblbgy_ibfk_1">
+      <End Role="tblmuncit" EntitySet="tblmuncit" />
+      <End Role="tblbgy" EntitySet="tblbgy" />
+    </AssociationSet>
+    <AssociationSet Name="tblmuncit_ibfk_1" Association="Self.tblmuncit_ibfk_1">
+      <End Role="tblprov" EntitySet="tblprov" />
+      <End Role="tblmuncit" EntitySet="tblmuncit" />
+    </AssociationSet>
+    <AssociationSet Name="tblprov_ibfk_1" Association="Self.tblprov_ibfk_1">
+      <End Role="tblreg" EntitySet="tblreg" />
+      <End Role="tblprov" EntitySet="tblprov" />
+    </AssociationSet>
+    <AssociationSet Name="tblsubbgy_ibfk_1" Association="Self.tblsubbgy_ibfk_1">
+      <End Role="tblsubmun" EntitySet="tblsubmun" />
+      <End Role="tblsubbgy" EntitySet="tblsubbgy" />
+    </AssociationSet>
+    <AssociationSet Name="tblsubmun_ibfk_1" Association="Self.tblsubmun_ibfk_1">
+      <End Role="tblmuncit" EntitySet="tblmuncit" />
+      <End Role="tblsubmun" EntitySet="tblsubmun" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

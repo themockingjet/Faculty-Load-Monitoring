@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="classscheduleModelStoreContainer" CdmEntityContainer="classscheduleEntities">
+    <EntitySetMapping Name="open_subjects">
+      <EntityTypeMapping TypeName="classscheduleModel.open_subjects">
+        <MappingFragment StoreEntitySet="open_subjects">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="subject_code" ColumnName="subject_code" />
+          <ScalarProperty Name="semester" ColumnName="semester" />
+          <ScalarProperty Name="sy" ColumnName="sy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_room_schedule_backup">
+      <EntityTypeMapping TypeName="classscheduleModel.tbl_room_schedule_backup">
+        <MappingFragment StoreEntitySet="tbl_room_schedule_backup">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="subject_code" ColumnName="subject_code" />
+          <ScalarProperty Name="semester" ColumnName="semester" />
+          <ScalarProperty Name="start_time" ColumnName="start_time" />
+          <ScalarProperty Name="end_time" ColumnName="end_time" />
+          <ScalarProperty Name="days" ColumnName="days" />
+          <ScalarProperty Name="room_id" ColumnName="room_id" />
+          <ScalarProperty Name="instructor_id" ColumnName="instructor_id" />
+          <ScalarProperty Name="sy" ColumnName="sy" />
+          <ScalarProperty Name="item_color" ColumnName="item_color" />
+          <ScalarProperty Name="void" ColumnName="void" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblaccounts">
+      <EntityTypeMapping TypeName="classscheduleModel.tblaccount">
+        <MappingFragment StoreEntitySet="tblaccounts">
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="user_info" ColumnName="user_info" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="user_type" ColumnName="user_type" />
+          <ScalarProperty Name="question" ColumnName="question" />
+          <ScalarProperty Name="answer" ColumnName="answer" />
+          <ScalarProperty Name="added_by" ColumnName="added_by" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblbgies">
+      <EntityTypeMapping TypeName="classscheduleModel.tblbgy">
+        <MappingFragment StoreEntitySet="tblbgy">
+          <ScalarProperty Name="bgy_id" ColumnName="bgy_id" />
+          <ScalarProperty Name="bgy_name" ColumnName="bgy_name" />
+          <ScalarProperty Name="muncit_id" ColumnName="muncit_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblcourses">
+      <EntityTypeMapping TypeName="classscheduleModel.tblcourse">
+        <MappingFragment StoreEntitySet="tblcourse">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Course" ColumnName="Course" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblins">
+      <EntityTypeMapping TypeName="classscheduleModel.tblin">
+        <MappingFragment StoreEntitySet="tblins">
+          <ScalarProperty Name="I_ID" ColumnName="I_ID" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="LName" ColumnName="LName" />
+          <ScalarProperty Name="FName" ColumnName="FName" />
+          <ScalarProperty Name="Mname" ColumnName="Mname" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Contact" ColumnName="Contact" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblmuncits">
+      <EntityTypeMapping TypeName="classscheduleModel.tblmuncit">
+        <MappingFragment StoreEntitySet="tblmuncit">
+          <ScalarProperty Name="muncit_id" ColumnName="muncit_id" />
+          <ScalarProperty Name="muncit_name" ColumnName="muncit_name" />
+          <ScalarProperty Name="prov_id" ColumnName="prov_id" />
+          <ScalarProperty Name="submun" ColumnName="submun" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblprovs">
+      <EntityTypeMapping TypeName="classscheduleModel.tblprov">
+        <MappingFragment StoreEntitySet="tblprov">
+          <ScalarProperty Name="prov_id" ColumnName="prov_id" />
+          <ScalarProperty Name="prov_name" ColumnName="prov_name" />
+          <ScalarProperty Name="reg_id" ColumnName="reg_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblregs">
+      <EntityTypeMapping TypeName="classscheduleModel.tblreg">
+        <MappingFragment StoreEntitySet="tblreg">
+          <ScalarProperty Name="reg_id" ColumnName="reg_id" />
+          <ScalarProperty Name="reg_name" ColumnName="reg_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblrooms">
+      <EntityTypeMapping TypeName="classscheduleModel.tblroom">
+        <MappingFragment StoreEntitySet="tblroom">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Room" ColumnName="Room" />
+          <ScalarProperty Name="Capacity" ColumnName="Capacity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblscheds">
+      <EntityTypeMapping TypeName="classscheduleModel.tblsched">
+        <MappingFragment StoreEntitySet="tblscheds">
+          <ScalarProperty Name="sID" ColumnName="sID" />
+          <ScalarProperty Name="day" ColumnName="day" />
+          <ScalarProperty Name="room" ColumnName="room" />
+          <ScalarProperty Name="ins" ColumnName="ins" />
+          <ScalarProperty Name="scode" ColumnName="scode" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="course" ColumnName="course" />
+          <ScalarProperty Name="section" ColumnName="section" />
+          <ScalarProperty Name="spos" ColumnName="spos" />
+          <ScalarProperty Name="epos" ColumnName="epos" />
+          <ScalarProperty Name="rspan" ColumnName="rspan" />
+          <ScalarProperty Name="sem" ColumnName="sem" />
+          <ScalarProperty Name="sy" ColumnName="sy" />
+          <ScalarProperty Name="stime" ColumnName="stime" />
+          <ScalarProperty Name="etime" ColumnName="etime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblschoolyrs">
+      <EntityTypeMapping TypeName="classscheduleModel.tblschoolyr">
+        <MappingFragment StoreEntitySet="tblschoolyr">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="sy" ColumnName="sy" />
+          <ScalarProperty Name="ey" ColumnName="ey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblsubbgies">
+      <EntityTypeMapping TypeName="classscheduleModel.tblsubbgy">
+        <MappingFragment StoreEntitySet="tblsubbgy">
+          <ScalarProperty Name="subbgy_id" ColumnName="subbgy_id" />
+          <ScalarProperty Name="subbgy_name" ColumnName="subbgy_name" />
+          <ScalarProperty Name="submun_id" ColumnName="submun_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblsubjects">
+      <EntityTypeMapping TypeName="classscheduleModel.tblsubject">
+        <MappingFragment StoreEntitySet="tblsubject">
+          <ScalarProperty Name="Subject_Code" ColumnName="Subject_Code" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Units" ColumnName="Units" />
+          <ScalarProperty Name="Lab" ColumnName="Lab" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="courses" ColumnName="courses" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblsubmuns">
+      <EntityTypeMapping TypeName="classscheduleModel.tblsubmun">
+        <MappingFragment StoreEntitySet="tblsubmun">
+          <ScalarProperty Name="submun_id" ColumnName="submun_id" />
+          <ScalarProperty Name="submun_name" ColumnName="submun_name" />
+          <ScalarProperty Name="muncit_id" ColumnName="muncit_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
