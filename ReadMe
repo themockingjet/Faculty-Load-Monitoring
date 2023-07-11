@@ -1,0 +1,5 @@
+Requirements:
+
+.Net 4.8
+SQL Connector 8.0.30+
+Visual Studio WPF bundle
