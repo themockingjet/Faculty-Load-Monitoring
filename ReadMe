@@ -1,5 +1,8 @@
-Requirements:
+Installation:
+- Setup MySQL > create database "classschedule" > Import database
+- Open Project, Run Visual Studio
 
+Requirements:
 .Net 4.8
 SQL Connector 8.0.30+
 Visual Studio WPF bundle
