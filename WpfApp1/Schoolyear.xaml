@@ -1,0 +1,232 @@
+﻿<Window x:Class="WpfApp1.Schoolyear"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="Schoolyear"  Height="0" Width="0" ResizeMode="NoResize" SizeToContent="WidthAndHeight" WindowStartupLocation="Manual" WindowState="Maximized" 
+        WindowStyle="None" MinWidth="1366" MinHeight="768" MaxWidth="1366" MaxHeight="768">
+
+    <StackPanel Orientation="Vertical">
+        <!-- TOP GRID -->
+        <Grid Height="40" Background="White">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.ColumnSpan="2" Text="SCHOOL YEAR AND SEMESTERS" FontFamily="Lovelo" FontSize="30" Foreground="#2D3D54" TextAlignment="Center" VerticalAlignment="Center"/>
+            <Grid Grid.Column="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <Border Background="Transparent" Grid.Column="1" HorizontalAlignment="Left" Height="40" Margin="130,0,0,0" VerticalAlignment="Center" Width="40">
+                    <Button x:Name="btn_Close" Click="Btn_Close_Click" Content="X" FontWeight="DemiBold" Background="Transparent" BorderThickness="0" ClipToBounds="True" ToolTip="Close" FontSize="15">
+                        <Button.Style>
+                            <Style TargetType="{x:Type Button}">
+                                <Setter Property="Cursor" Value="Hand" />
+                                <Setter Property="Foreground" Value="Black"/>
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="{x:Type Button}">
+                                            <Border Background="{TemplateBinding Background}">
+                                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                            </Border>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                                <Style.Triggers >
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="Transparent"/>
+                                        <Setter Property="Foreground" Value="White"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                    </Button>
+                </Border>
+                <Border Background="Transparent" Grid.Column="1" HorizontalAlignment="Left" Height="40" Margin="90,0,0,0" VerticalAlignment="Center" Width="40">
+                    <Button Name="btn_Min" Click="BtnMin_Click" FontWeight="ExtraBold" FontSize="15" BorderThickness="0" ClipToBounds="True" ToolTip="Minimize" HorizontalContentAlignment="Center">
+                        <Button.Style>
+                            <Style TargetType="{x:Type Button}">
+                                <Setter Property="Cursor" Value="Hand" />
+                                <Setter Property="Content" Value="_" />
+                                <Setter Property="Foreground" Value="Black" />
+                                <Setter Property="Background" Value="Transparent"/>
+                                <Setter Property="Padding" Value="0"/>
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="{x:Type Button}">
+                                            <Border Background="{TemplateBinding Background}">
+                                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                            </Border>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="Transparent"/>
+                                        <Setter Property="Foreground" Value="White"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                    </Button>
+                </Border>
+                <TextBlock x:Name="Logout" HorizontalAlignment="Left" TextWrapping="Wrap" Text="LOGOUT" TextDecorations="Underline" FontSize="16"  VerticalAlignment="Top" Margin="10,10,0,0" Grid.Column="1" Foreground="Blue"
+                           MouseLeftButtonDown="Logout_MouseLeftButtonDown"/>
+            </Grid>
+        </Grid>
+
+        <!-- CONTENT GRID -->
+        <Grid Name="grdcontent" Height="700" x:FieldModifier="public">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#1D976C" Offset="0"/>
+                    <GradientStop Color="#38ef7d" Offset=".50"/>
+                    <GradientStop Color="#1D976C" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Grid>
+                <Button x:Name="btn_Home" Margin="20 50 0 0" Height="100" Width="100" Background="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Cursor="Hand" BorderBrush="Transparent" BorderThickness="1" Click="Btn_Home_Click">
+                    <Button.Template>
+                        <ControlTemplate TargetType="{x:Type ButtonBase}">
+                            <Border x:Name="border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="True">
+                                <ContentPresenter x:Name="contentPresenter" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="Button.IsDefaulted" Value="True">
+                                    <Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+                                </Trigger>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" TargetName="border" Value="Transparent"/>
+                                    <Setter Property="BorderBrush" TargetName="border" Value="Transparent"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Button.Template>
+                    <Grid >
+                        <Image Name="imgHome" Source="img/Home.png" Width="50" Margin="0 5 0 20"/>
+                        <TextBlock Name="tblHome" Background="Transparent" Text="MENU" VerticalAlignment="Bottom" HorizontalAlignment="Center" FontFamily="LOVELO" Foreground="White"/>
+                    </Grid>
+
+                </Button>
+            </Grid>
+            <Border Padding="130 30">
+                <Grid Name="bdrContent">
+                    <Border Height="250" Background="White" Padding="20" Width="600">
+                        <Border BorderBrush="#2B3D54" BorderThickness="2">
+                            <Grid Name="grdAy" Background="White">
+                                <Grid>
+                                    <!-- Name Start -->
+                                    <TextBlock HorizontalAlignment="Left" Margin="20,50,0,0" Text="CURRENT ACADEMIC YEAR: " FontSize="20" VerticalAlignment="Top"/>
+                                    <StackPanel Margin="270 50 0 0" Height="27" HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
+                                        <TextBlock Name="txtcuray" HorizontalAlignment="Left" Text="" FontSize="20" VerticalAlignment="Top" TextDecorations="Underline"/>
+                                        <TextBlock x:Name="txtEndAY" HorizontalAlignment="Left" Text="(END ACADEMIC YEAR)" FontSize="13" Foreground="Gray" VerticalAlignment="Center" Margin="5 0 0 0"
+                                                 Cursor="Hand" MouseEnter="TextBox_MouseEnter" MouseLeave="TextBox_MouseLeave" MouseLeftButtonDown="TxtEndAY_MouseLeftButtonDown"/>
+                                    </StackPanel>
+                                    <TextBlock HorizontalAlignment="Left" Margin="20,100,0,0" Text="CURRENT SEMESTER: " FontSize="20" VerticalAlignment="Top"/>
+                                    <StackPanel Margin="213 100 0 0" Height="27" HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
+                                        <TextBlock Name="txtcursem" HorizontalAlignment="Left" FontSize="20" VerticalAlignment="Top" TextDecorations="Underline"/>
+                                        <ComboBox Name="cbSem" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="27" DisplayMemberPath="Sem_name" SelectionChanged="CbSem_SelectionChanged" SelectedValuePath="Sem_id" Visibility="Collapsed"/>
+                                        <TextBlock Name="txtsemchange" HorizontalAlignment="Left" Text="(CHANGE)" FontSize="13" Foreground="Gray" VerticalAlignment="Center" Margin="5 0 0 0"
+                                                 Cursor="Hand" MouseEnter="TextBox_MouseEnter" MouseLeave="TextBox_MouseLeave" MouseLeftButtonDown="TextBox_MouseLeftButtonDown"/>
+                                    </StackPanel>
+                                    <Button x:Name="btnManageSem" Content="  VIEW PREVIOUS&#x0a;ACADEMIC YEARS" Background="#2d3d54" FontSize="14" FontWeight="SemiBold" Width="200" Height="42" VerticalAlignment="Bottom"
+                                            HorizontalAlignment="Center" Cursor="Hand" Click="BtnManageSem_Click" Margin="250 0 0 10" >
+                                        <Button.Template>
+                                            <ControlTemplate TargetType="{x:Type ButtonBase}">
+                                                <Border x:Name="border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="True">
+                                                    <ContentPresenter x:Name="contentPresenter" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                                </Border>
+                                                <ControlTemplate.Triggers>
+                                                    <Trigger Property="Button.IsDefaulted" Value="True">
+                                                        <Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+                                                    </Trigger>
+                                                    <Trigger Property="IsMouseOver" Value="True">
+                                                        <Setter Property="Background" TargetName="border" Value="#0479a8"/>
+                                                        <Setter Property="BorderBrush" TargetName="border" Value="#0479a8"/>
+                                                    </Trigger>
+                                                    <Trigger Property="IsPressed" Value="True">
+                                                        <Setter Property="Background" TargetName="border" Value="#0479a8"/>
+                                                        <Setter Property="BorderBrush" TargetName="border" Value="#0479a8"/>
+                                                    </Trigger>
+                                                    <Trigger Property="IsEnabled" Value="False">
+                                                        <Setter Property="Background" TargetName="border" Value="lightgray"/>
+                                                    </Trigger>
+                                                </ControlTemplate.Triggers>
+                                            </ControlTemplate>
+                                        </Button.Template>
+                                        <Button.Style>
+                                            <Style TargetType="Button">
+                                                <Setter Property="Opacity" Value="1.0" />
+                                                <Style.Triggers>
+                                                    <Trigger Property="IsEnabled" Value="False" >
+                                                        <Setter Property="Foreground" Value="Black" />
+                                                    </Trigger>
+                                                    <Trigger Property="IsEnabled" Value="True" >
+                                                        <Setter Property="Foreground" Value="White" />
+                                                    </Trigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </Button.Style>
+                                    </Button>
+                                    <Button x:Name="btnManageAa" Content="MANAGE ACADEMIC&#x0a;   ADMINISTRATION" Background="#2d3d54" FontSize="14" FontWeight="SemiBold" Width="200" Height="42" VerticalAlignment="Bottom"
+                                            HorizontalAlignment="Center" Cursor="Hand" Click="BtnManageAa_Click" Grid.Column="1" Margin="0 0 250 10" >
+                                        <Button.Template>
+                                            <ControlTemplate TargetType="{x:Type ButtonBase}">
+                                                <Border x:Name="border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="True">
+                                                    <ContentPresenter x:Name="contentPresenter" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                                </Border>
+                                                <ControlTemplate.Triggers>
+                                                    <Trigger Property="Button.IsDefaulted" Value="True">
+                                                        <Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+                                                    </Trigger>
+                                                    <Trigger Property="IsMouseOver" Value="True">
+                                                        <Setter Property="Background" TargetName="border" Value="#0479a8"/>
+                                                        <Setter Property="BorderBrush" TargetName="border" Value="#0479a8"/>
+                                                    </Trigger>
+                                                    <Trigger Property="IsPressed" Value="True">
+                                                        <Setter Property="Background" TargetName="border" Value="#0479a8"/>
+                                                        <Setter Property="BorderBrush" TargetName="border" Value="#0479a8"/>
+                                                    </Trigger>
+                                                    <Trigger Property="IsEnabled" Value="False">
+                                                        <Setter Property="Background" TargetName="border" Value="lightgray"/>
+                                                    </Trigger>
+                                                </ControlTemplate.Triggers>
+                                            </ControlTemplate>
+                                        </Button.Template>
+                                        <Button.Style>
+                                            <Style TargetType="Button">
+                                                <Setter Property="Opacity" Value="1.0" />
+                                                <Style.Triggers>
+                                                    <Trigger Property="IsEnabled" Value="False" >
+                                                        <Setter Property="Foreground" Value="Black" />
+                                                    </Trigger>
+                                                    <Trigger Property="IsEnabled" Value="True" >
+                                                        <Setter Property="Foreground" Value="White" />
+                                                    </Trigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </Button.Style>
+                                    </Button>
+                                </Grid>
+                            </Grid>
+                        </Border>
+                    </Border>
+                </Grid>
+            </Border>
+        </Grid>
+
+        <Grid Height="30" Background="White">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="1" FontWeight="DemiBold" HorizontalAlignment="Right" VerticalAlignment="Center" Text="{Binding Source={x:Static sys:DateTime.Now},StringFormat='{}{0: hh:mm:ss tt dddd, MMM dd, yyyy}'}" Margin="0,0,7,0" FontFamily="Courier New" FontSize="15" Foreground="Black"/>
+            <TextBlock Grid.Column="0" Name="txtCuraysem" FontWeight="DemiBold" HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Courier New" FontSize="15" Foreground="Black"/>
+        </Grid>
+    </StackPanel>
+</Window>

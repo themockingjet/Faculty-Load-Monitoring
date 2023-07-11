@@ -1,0 +1,419 @@
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.dll
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\bin\Debug\MySql.Data.dll
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\bin\Debug\PresentationFramework.Aero.dll
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\bin\Debug\PresentationFramework.dll
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.xml
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\bin\Debug\MySql.Data.xml
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\Main.baml
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\OpenSub.baml
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\Sub_List.baml
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\Instructors.g.cs
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\Login.g.cs
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\Main.g.cs
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\mIns.g.cs
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\OpenSub.g.cs
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\Sub_List.g.cs
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\vIns.g.cs
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\vOpenSub.g.cs
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\vSub_List.g.cs
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\Instructors.baml
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\Login.baml
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\mIns.baml
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\vIns.baml
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\vOpenSub.baml
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\vSub_List.baml
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\mOpenSub.g.cs
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\mOpenSub.baml
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\Course.baml
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\Course.g.cs
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\vCourses.g.cs
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\vCourses.baml
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\Rooms.g.cs
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\vRooms.g.cs
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\Rooms.baml
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\vRooms.baml
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\Schedule.baml
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\Schedule.g.cs
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\vSchedule.g.cs
+C:\Users\Jet\source\repos\WpfApp1\WpfApp1\obj\Debug\vSchedule.baml
+D:\Visual Studio 2017\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\Visual Studio 2017\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+D:\Visual Studio 2017\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\Visual Studio 2017\WpfApp1\WpfApp1\bin\Debug\EntityFramework.dll
+D:\Visual Studio 2017\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+D:\Visual Studio 2017\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.dll
+D:\Visual Studio 2017\WpfApp1\WpfApp1\bin\Debug\MySql.Data.EntityFramework.dll
+D:\Visual Studio 2017\WpfApp1\WpfApp1\bin\Debug\PresentationFramework.Aero.dll
+D:\Visual Studio 2017\WpfApp1\WpfApp1\bin\Debug\PresentationFramework.dll
+D:\Visual Studio 2017\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
+D:\Visual Studio 2017\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+D:\Visual Studio 2017\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.xml
+D:\Visual Studio 2017\WpfApp1\WpfApp1\bin\Debug\MySql.Data.xml
+D:\Visual Studio 2017\WpfApp1\WpfApp1\bin\Debug\MySql.Data.EntityFramework.xml
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\Course.baml
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\Main.baml
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\OpenSub.baml
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\Rooms.baml
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\Schedule.baml
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\Sub_List.baml
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\Course.g.cs
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\Instructors.g.cs
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\Login.g.cs
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\Main.g.cs
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\mIns.g.cs
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\mOpenSub.g.cs
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\OpenSub.g.cs
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\Rooms.g.cs
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\Schedule.g.cs
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\Sub_List.g.cs
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\vCourses.g.cs
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\vIns.g.cs
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\vOpenSub.g.cs
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\vRooms.g.cs
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\vSchedule.g.cs
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\vSub_List.g.cs
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\Instructors.baml
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\Login.baml
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\mIns.baml
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\mOpenSub.baml
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\vCourses.baml
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\vIns.baml
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\vOpenSub.baml
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\vRooms.baml
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\vSchedule.baml
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\vSub_List.baml
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\mSchedule.g.cs
+D:\Visual Studio 2017\WpfApp1\WpfApp1\obj\Debug\mSchedule.baml
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.dll
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\PresentationFramework.Aero.dll
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\PresentationFramework.dll
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.xml
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\Course.baml
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\Main.baml
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mScheduleSubject.baml
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\Rooms.baml
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\Schedule.baml
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\Sub_List.baml
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\Course.g.cs
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\Instructors.g.cs
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\Login.g.cs
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mAccount.g.cs
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\Main.g.cs
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mCourse.g.cs
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mIns.g.cs
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mOpenSub.g.cs
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mRoom.g.cs
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mSchedule.g.cs
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mScheduleSubject.g.cs
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mSem.g.cs
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mSubL.g.cs
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mSy.g.cs
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\OpenSub.g.cs
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\Rooms.g.cs
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\Schedule.g.cs
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\Schoolyear.g.cs
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\Sub_List.g.cs
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\vSchedule.g.cs
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\Instructors.baml
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\Login.baml
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mAccount.baml
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mCourse.baml
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mIns.baml
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mOpenSub.baml
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mRoom.baml
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mSchedule.baml
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mSem.baml
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mSubL.baml
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mSy.baml
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\OpenSub.baml
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\Schoolyear.baml
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\vSchedule.baml
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\Course.baml
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\Main.baml
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\Rooms.baml
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\Sub_List.baml
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\Course.g.cs
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\Instructors.g.cs
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\Login.g.cs
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\Main.g.cs
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\MainP1.g.cs
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\MainP2.g.cs
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mCourse.g.cs
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mIns.g.cs
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mOpenSub.g.cs
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mRoom.g.cs
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mS.g.cs
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mSection.g.cs
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mSubL.g.cs
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\OpenSub.g.cs
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\Recover.g.cs
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\Rooms.g.cs
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\Schoolyear.g.cs
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\Sub_List.g.cs
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\vS.g.cs
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\EntityFramework.dll
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\Microsoft.Expression.Drawing.dll
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\MySql.Data.dll
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\PresentationFramework.Aero.dll
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\PresentationFramework.dll
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.dll
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\MySql.Data.xml
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\Instructors.baml
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\Login.baml
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\MainP1.baml
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\MainP2.baml
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mCourse.baml
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mIns.baml
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mOpenSub.baml
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mRoom.baml
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mS.baml
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mSection.baml
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mSem.baml
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mSubL.baml
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\OpenSub.baml
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\Recover.baml
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\Schoolyear.baml
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\vS.baml
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\MySqlBackup.dll
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe.config
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\BackupRestore.g.cs
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\BackupRestore.baml
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mSemAa.g.cs
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mSemAa.baml
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mSem.g.cs
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\manageins.g.cs
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\manageins.baml
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\manageins2.g.cs
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\manageins2.baml
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\managerms.g.cs
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\managerms2.g.cs
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\managerms.baml
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\managerms2.baml
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\managesec.g.cs
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\managesec2.g.cs
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\managesec.baml
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\managesec2.baml
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\Microsoft.CSharp.dll
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\PresentationCore.dll
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\System.ComponentModel.dll
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\System.Configuration.dll
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\System.Configuration.Install.dll
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\System.Data.DataSetExtensions.dll
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\System.Data.dll
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\System.Deployment.dll
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\System.dll
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\System.Drawing.Design.dll
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\System.Drawing.dll
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\System.Management.dll
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\System.Net.Http.dll
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\System.Runtime.Serialization.dll
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\System.Security.dll
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\System.Transactions.dll
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\System.Windows.dll
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\System.Windows.Forms.dll
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\System.Xaml.dll
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\System.Xml.dll
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\System.Xml.Linq.dll
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\WindowsBase.dll
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\ChangePass.g.cs
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\ChangePass.baml
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\vInssched.g.cs
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\vInssched.baml
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\vRmsched.g.cs
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\vRmsched.baml
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\vSecsched.g.cs
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\vSecsched.baml
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mGenSection.g.cs
+D:\Jet\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\mGenSection.baml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\Microsoft.CSharp.dll
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\PresentationCore.dll
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\PresentationFramework.Aero.dll
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\PresentationFramework.dll
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\System.ComponentModel.dll
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\System.Configuration.dll
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\System.Configuration.Install.dll
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\System.Data.dll
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\System.Deployment.dll
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\System.dll
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\System.Drawing.Design.dll
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\System.Drawing.dll
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\System.Management.dll
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\System.Net.Http.dll
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\System.Runtime.Serialization.dll
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\System.Security.dll
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\System.Transactions.dll
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\System.Windows.dll
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\System.Windows.Forms.dll
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\System.Xaml.dll
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\System.Xml.dll
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\System.Xml.Linq.dll
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\WindowsBase.dll
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe.config
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\Course.baml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\Main.baml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\Rooms.baml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\Sub_List.baml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\BackupRestore.g.cs
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\ChangePass.g.cs
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\Course.g.cs
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\Instructors.g.cs
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\Login.g.cs
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\Main.g.cs
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\MainP1.g.cs
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\MainP2.g.cs
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\manageins.g.cs
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\manageins2.g.cs
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\managerms.g.cs
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\managerms2.g.cs
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\managesec.g.cs
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\managesec2.g.cs
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\mCourse.g.cs
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\mGenSection.g.cs
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\mIns.g.cs
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\mOpenSub.g.cs
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\mRoom.g.cs
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\mS.g.cs
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\mSection.g.cs
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\mSem.g.cs
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\mSemAa.g.cs
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\mSubL.g.cs
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\OpenSub.g.cs
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\Recover.g.cs
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\Rooms.g.cs
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\Schoolyear.g.cs
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\Sub_List.g.cs
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\vInssched.g.cs
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\vRmsched.g.cs
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\vS.g.cs
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\vSecsched.g.cs
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\BackupRestore.baml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\ChangePass.baml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\Instructors.baml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\Login.baml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\MainP1.baml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\MainP2.baml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\manageins.baml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\manageins2.baml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\managerms.baml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\managerms2.baml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\managesec.baml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\managesec2.baml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\mCourse.baml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\mGenSection.baml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\mIns.baml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\mOpenSub.baml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\mRoom.baml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\mS.baml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\mSection.baml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\mSem.baml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\mSemAa.baml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\mSubL.baml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\OpenSub.baml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\Recover.baml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\Schoolyear.baml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\vInssched.baml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\vRmsched.baml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\vS.baml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\vSecsched.baml
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\MySql.Data.dll
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\mysql.data.entity.dll
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\System.Memory.dll
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\System.Buffers.dll
+C:\Users\Jet\Documents\Github\WpfApp1\WpfApp1\bin\Debug\MySql.Data.xml

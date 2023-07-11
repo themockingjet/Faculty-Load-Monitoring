@@ -1,0 +1,243 @@
+﻿<UserControl x:Class="WpfApp1.ChangePass"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp1"
+             mc:Ignorable="d" 
+             d:DesignHeight="700" d:DesignWidth="1366">
+    <Border>
+        <Border.Background>
+            <SolidColorBrush Color="Black" Opacity="0.2"/>
+        </Border.Background>
+        <Grid>
+            <Border VerticalAlignment="Center" HorizontalAlignment="Center" Height="350" Width="265" Background="White" Padding="10">
+                <Border BorderBrush="#2B3D54" BorderThickness="2">
+                    <Grid>
+                        <TextBlock HorizontalAlignment="Left" Margin="20,20,0,0" Text="Enter old password:" FontSize="16" VerticalAlignment="Top"/>
+                        <Border Name="bdrOld" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="40"
+                                    VerticalAlignment="Top" Width="200" Margin="20,45,0,0" Padding="10 5 10 5">
+                            <PasswordBox Name="Oldpass"  FontSize="16" VerticalAlignment="Center" BorderThickness="0" PasswordChanged="Oldpass_TextChanged"
+                                         GotFocus="Oldpass_GotFocus" LostFocus="Oldpass_LostFocus"/>
+                        </Border>
+                        <Border Name="ppOldp" Padding="20" VerticalAlignment="Center" Margin="220,0,-166,213" Height="113" Visibility="Collapsed">
+                            <StackPanel Orientation="Horizontal">
+                                <StackPanel.Effect>
+                                    <DropShadowEffect BlurRadius="5" Direction="270" ShadowDepth="2" Opacity="0.8"/>
+                                </StackPanel.Effect>
+                                <Path HorizontalAlignment="Center" Fill="White" Stretch="Fill" Width="20" Height="10" Data="M 0 0 L 6 6 L 12 0 Z" Margin="0 0 -20 0">
+                                    <Path.RenderTransform>
+                                        <TransformGroup>
+                                            <ScaleTransform/>
+                                            <SkewTransform/>
+                                            <RotateTransform Angle="90"/>
+                                            <TranslateTransform/>
+                                        </TransformGroup>
+                                    </Path.RenderTransform>
+                                </Path>
+                                <Border CornerRadius="5" HorizontalAlignment="Center" VerticalAlignment="Top" BorderThickness="0" Background="White" MinHeight="40" MinWidth="100">
+                                    <Grid ClipToBounds="True">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="3*"/>
+                                        </Grid.RowDefinitions>
+                                        <Border Grid.Row="0" Background="Red" Padding="5" CornerRadius="5 5 0 0">
+                                            <TextBlock FontFamily="Tahoma" FontWeight="SemiBold" FontSize="12" Text="INVALID" Foreground="White" TextAlignment="Center"/>
+                                        </Border>
+                                        <Border Grid.Row="1" Padding="10" CornerRadius="5 5 0 0">
+                                            <TextBlock Name="ppOldptxt" Text="Incorrect password." FontFamily="Tahoma" FontWeight="Light" FontSize="14" Foreground="Black" TextAlignment="Center"/>
+                                        </Border>
+                                    </Grid>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+
+                        <TextBlock HorizontalAlignment="Left" Margin="20,100,0,0" Text="Enter new password:" FontSize="16" VerticalAlignment="Top"/>
+                        <Border Name="bdrNew" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="40"
+                                    VerticalAlignment="Top" Width="200" Margin="20,125,0,0" Padding="10 5 10 5">
+                            <PasswordBox Name="Newpass"  FontSize="16" VerticalAlignment="Center" BorderThickness="0" MaxLength="12" PasswordChanged="Newpass_PasswordChanged"
+                                         GotFocus="Newpass_GotFocus" LostFocus="Newpass_LostFocus"/>
+                        </Border>
+                        <Border Name="ppNewp" Padding="20" VerticalAlignment="Center" Margin="220,72,-386,129" Height="125" Visibility="Collapsed">
+                            <StackPanel Orientation="Horizontal">
+                                <StackPanel.Effect>
+                                    <DropShadowEffect BlurRadius="5" Direction="270" ShadowDepth="2" Opacity="0.8"/>
+                                </StackPanel.Effect>
+                                <Path HorizontalAlignment="Center" Fill="White" Stretch="Fill" Width="20" Height="10" Data="M 0 0 L 6 6 L 12 0 Z" Margin="0 0 -20 0">
+                                    <Path.RenderTransform>
+                                        <TransformGroup>
+                                            <ScaleTransform/>
+                                            <SkewTransform/>
+                                            <RotateTransform Angle="90"/>
+                                            <TranslateTransform/>
+                                        </TransformGroup>
+                                    </Path.RenderTransform>
+                                </Path>
+                                <Border CornerRadius="5" HorizontalAlignment="Center" VerticalAlignment="Top" BorderThickness="0" Background="White" MinHeight="40" MinWidth="100">
+                                    <Grid ClipToBounds="True">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="3*"/>
+                                        </Grid.RowDefinitions>
+                                        <Border Grid.Row="0" Background="Yellow" Padding="5" CornerRadius="5 5 0 0">
+                                            <TextBlock FontFamily="Tahoma" FontWeight="SemiBold" FontSize="12" Text="HINT" Foreground="Black" TextAlignment="Center"/>
+                                        </Border>
+                                        <Border Grid.Row="1" Padding="10" CornerRadius="5 5 0 0">
+                                            <TextBlock Name="ppNewptxt" Text="• Password must have at least 6 characters.&#x0a;• Password must have at least 1 symbol and 1 number."
+                                                       FontFamily="Tahoma" FontWeight="Light" FontSize="14" Foreground="Black" TextAlignment="Center"/>
+                                        </Border>
+                                    </Grid>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+                        <Border Name="ppNewOld" Padding="20" VerticalAlignment="Center" Margin="220,67,-220,121" Height="138" Visibility="Collapsed">
+                            <StackPanel Orientation="Horizontal">
+                                <StackPanel.Effect>
+                                    <DropShadowEffect BlurRadius="5" Direction="270" ShadowDepth="2" Opacity="0.8"/>
+                                </StackPanel.Effect>
+                                <Path HorizontalAlignment="Center" Fill="White" Stretch="Fill" Width="20" Height="10" Data="M 0 0 L 6 6 L 12 0 Z" Margin="0 0 -20 0">
+                                    <Path.RenderTransform>
+                                        <TransformGroup>
+                                            <ScaleTransform/>
+                                            <SkewTransform/>
+                                            <RotateTransform Angle="90"/>
+                                            <TranslateTransform/>
+                                        </TransformGroup>
+                                    </Path.RenderTransform>
+                                </Path>
+                                <Border CornerRadius="5" HorizontalAlignment="Center" VerticalAlignment="Top" BorderThickness="0" Background="White" MinHeight="40" MinWidth="100" Width="201">
+                                    <Grid ClipToBounds="True">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="3*"/>
+                                        </Grid.RowDefinitions>
+                                        <Border Grid.Row="0" Background="Red" Padding="5" CornerRadius="5 5 0 0">
+                                            <TextBlock FontFamily="Tahoma" FontWeight="SemiBold" FontSize="12" Text="INVALID" Foreground="White" TextAlignment="Center"/>
+                                        </Border>
+                                        <Border Grid.Row="1" Padding="10" CornerRadius="5 5 0 0">
+                                            <TextBox Name="ppNew" Text="New password cannot be the same with your old password." FontFamily="Tahoma" FontWeight="Light" FontSize="14" IsTabStop="False"
+                                                     Foreground="Black" TextAlignment="Center" MinLines="2" TextWrapping="Wrap" HorizontalScrollBarVisibility="Disabled" BorderThickness="0"/>
+                                        </Border>
+                                    </Grid>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+
+                        <TextBlock HorizontalAlignment="Left" Margin="20,180,0,0" Text="Enter new password:" FontSize="16" VerticalAlignment="Top"/>
+                        <Border Name="bdrCon" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="40"
+                                    VerticalAlignment="Top" Width="200" Margin="20,205,0,0" Padding="10 5 10 5">
+                            <PasswordBox Name="Conpass" FontSize="16" VerticalAlignment="Center" BorderThickness="0" MaxLength="12" PasswordChanged="Conpass_PasswordChanged"
+                                         GotFocus="Conpass_GotFocus" LostFocus="Conpass_LostFocus"/>
+                        </Border>
+                        <Border Name="ppConp" Padding="20" VerticalAlignment="Center" Margin="220,160,-220,53" Height="113" Visibility="Collapsed">
+                            <StackPanel Orientation="Horizontal">
+                                <StackPanel.Effect>
+                                    <DropShadowEffect BlurRadius="5" Direction="270" ShadowDepth="2" Opacity="0.8"/>
+                                </StackPanel.Effect>
+                                <Path HorizontalAlignment="Center" Fill="White" Stretch="Fill" Width="20" Height="10" Data="M 0 0 L 6 6 L 12 0 Z" Margin="0 0 -20 0">
+                                    <Path.RenderTransform>
+                                        <TransformGroup>
+                                            <ScaleTransform/>
+                                            <SkewTransform/>
+                                            <RotateTransform Angle="90"/>
+                                            <TranslateTransform/>
+                                        </TransformGroup>
+                                    </Path.RenderTransform>
+                                </Path>
+                                <Border CornerRadius="5" HorizontalAlignment="Center" VerticalAlignment="Top" BorderThickness="0" Background="White" MinHeight="40" MinWidth="100">
+                                    <Grid ClipToBounds="True">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="3*"/>
+                                        </Grid.RowDefinitions>
+                                        <Border Grid.Row="0" Background="Red" Padding="5" CornerRadius="5 5 0 0">
+                                            <TextBlock FontFamily="Tahoma" FontWeight="SemiBold" FontSize="12" Text="INVALID" Foreground="White" TextAlignment="Center"/>
+                                        </Border>
+                                        <Border Grid.Row="1" Padding="10" CornerRadius="5 5 0 0">
+                                            <TextBlock Name="ppContxt" Text="New password do not match." FontFamily="Tahoma" FontWeight="Light" FontSize="14" Foreground="Black" TextAlignment="Center"/>
+                                        </Border>
+                                    </Grid>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+
+
+                        <Button x:Name="btnSubmit" Content="SUBMIT" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0 0 0 10" Width="75" Height="41" Background="#2D3D54" FontSize="14" 
+                            FontWeight="SemiBold" Cursor="Hand" Click="BtnSubmit_Click" IsEnabled="False">
+                            <Button.Template>
+                                <ControlTemplate TargetType="{x:Type ButtonBase}">
+                                    <Border x:Name="border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="True">
+                                        <ContentPresenter x:Name="contentPresenter" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="Button.IsDefaulted" Value="True">
+                                            <Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+                                        </Trigger>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" TargetName="border" Value="#0479a8"/>
+                                            <Setter Property="BorderBrush" TargetName="border" Value="#FF3C7FB1"/>
+                                        </Trigger>
+                                        <Trigger Property="IsPressed" Value="True">
+                                            <Setter Property="Background" TargetName="border" Value="#0479a8"/>
+                                            <Setter Property="BorderBrush" TargetName="border" Value="#FF2C628B"/>
+                                        </Trigger>
+                                        <Trigger Property="IsEnabled" Value="False">
+                                            <Setter Property="Background" TargetName="border" Value="LightGray"/>
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Button.Template>
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Style.Triggers>
+                                        <Trigger Property="IsEnabled" Value="False" >
+                                            <Setter Property="Foreground" Value="Black" />
+                                        </Trigger>
+                                        <Trigger Property="IsEnabled" Value="True" >
+                                            <Setter Property="Foreground" Value="White" />
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+                        <Button Name="btnClose" Content="X" Grid.Column="0" Height="30" Width="30" Click="BtnClose_Click" HorizontalAlignment="Right" VerticalAlignment="Top" FontFamily="Lovelo"
+                                FontSize="16" Background="#2B3D54" Cursor="Hand" Margin="-10">
+                            <Button.Template>
+                                <ControlTemplate TargetType="{x:Type ButtonBase}">
+                                    <Border x:Name="border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="True">
+                                        <ContentPresenter x:Name="contentPresenter" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" Focusable="False" 
+                                                                    HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" 
+                                                                    VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" TargetName="border" Value="#8EACBD"/>
+                                        </Trigger>
+                                        <Trigger Property="IsPressed" Value="True">
+                                            <Setter Property="Background" TargetName="border" Value="White"/>
+                                        </Trigger>
+                                        <Trigger Property="IsEnabled" Value="False">
+                                            <Setter Property="Background" TargetName="border" Value="LightGray"/>
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Button.Template>
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Style.Triggers>
+                                        <Trigger Property="IsEnabled" Value="False" >
+                                            <Setter Property="Foreground" Value="Black" />
+                                        </Trigger>
+                                        <Trigger Property="IsEnabled" Value="True" >
+                                            <Setter Property="Foreground" Value="White" />
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+                    </Grid>
+                </Border>
+            </Border>
+        </Grid>
+    </Border>
+</UserControl>

@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="classscheduleModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="open_subjects">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="subject_code" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="semester" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="sy" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="tblsubject" Relationship="Self.fk_tblsubject" FromRole="open_subjects" ToRole="tblsubject" />
+  </EntityType>
+  <EntityType Name="tbl_room_schedule_backup">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="subject_code" Type="Int32" Nullable="false" />
+    <Property Name="semester" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="start_time" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="end_time" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="days" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="room_id" Type="Int32" Nullable="false" />
+    <Property Name="instructor_id" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="sy" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="item_color" Type="Int32" Nullable="false" />
+    <Property Name="void" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblaccount">
+    <Key>
+      <PropertyRef Name="user_id" />
+    </Key>
+    <Property Name="user_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="user_info" Type="Int32" Nullable="false" />
+    <Property Name="username" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="user_type" Type="Int32" Nullable="false" />
+    <Property Name="question" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="answer" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="added_by" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblbgy">
+    <Key>
+      <PropertyRef Name="bgy_id" />
+    </Key>
+    <Property Name="bgy_id" Type="Int32" Nullable="false" />
+    <Property Name="bgy_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="muncit_id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tblmuncit" Relationship="Self.tblbgy_ibfk_1" FromRole="tblbgy" ToRole="tblmuncit" />
+  </EntityType>
+  <EntityType Name="tblcourse">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Course" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tblin">
+    <Key>
+      <PropertyRef Name="I_ID" />
+    </Key>
+    <Property Name="I_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="title" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="LName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Mname" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Gender" Type="String" MaxLength="1" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Contact" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Picture" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblmuncit">
+    <Key>
+      <PropertyRef Name="muncit_id" />
+    </Key>
+    <Property Name="muncit_id" Type="Int32" Nullable="false" />
+    <Property Name="muncit_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="prov_id" Type="Int32" Nullable="false" />
+    <Property Name="submun" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tblbgies" Relationship="Self.tblbgy_ibfk_1" FromRole="tblmuncit" ToRole="tblbgy" />
+    <NavigationProperty Name="tblprov" Relationship="Self.tblmuncit_ibfk_1" FromRole="tblmuncit" ToRole="tblprov" />
+    <NavigationProperty Name="tblsubmuns" Relationship="Self.tblsubmun_ibfk_1" FromRole="tblmuncit" ToRole="tblsubmun" />
+  </EntityType>
+  <EntityType Name="tblprov">
+    <Key>
+      <PropertyRef Name="prov_id" />
+    </Key>
+    <Property Name="prov_id" Type="Int32" Nullable="false" />
+    <Property Name="prov_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="reg_id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tblmuncits" Relationship="Self.tblmuncit_ibfk_1" FromRole="tblprov" ToRole="tblmuncit" />
+    <NavigationProperty Name="tblreg" Relationship="Self.tblprov_ibfk_1" FromRole="tblprov" ToRole="tblreg" />
+  </EntityType>
+  <EntityType Name="tblreg">
+    <Key>
+      <PropertyRef Name="reg_id" />
+    </Key>
+    <Property Name="reg_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="reg_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="tblprovs" Relationship="Self.tblprov_ibfk_1" FromRole="tblreg" ToRole="tblprov" />
+  </EntityType>
+  <EntityType Name="tblroom">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Room" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Capacity" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tblsched">
+    <Key>
+      <PropertyRef Name="sID" />
+    </Key>
+    <Property Name="sID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="day" Type="Int32" Nullable="false" />
+    <Property Name="room" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ins" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="scode" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="type" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="course" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="section" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="spos" Type="Int32" Nullable="false" />
+    <Property Name="epos" Type="Int32" Nullable="false" />
+    <Property Name="rspan" Type="Int32" Nullable="false" />
+    <Property Name="sem" Type="Int32" Nullable="false" />
+    <Property Name="sy" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="stime" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="etime" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblschoolyr">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sy" Type="Int32" />
+    <Property Name="ey" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblsubbgy">
+    <Key>
+      <PropertyRef Name="subbgy_id" />
+    </Key>
+    <Property Name="subbgy_id" Type="Int32" Nullable="false" />
+    <Property Name="subbgy_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="submun_id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tblsubmun" Relationship="Self.tblsubbgy_ibfk_1" FromRole="tblsubbgy" ToRole="tblsubmun" />
+  </EntityType>
+  <EntityType Name="tblsubject">
+    <Key>
+      <PropertyRef Name="Subject_Code" />
+    </Key>
+    <Property Name="Subject_Code" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" />
+    <Property Name="Units" Type="Int32" />
+    <Property Name="Lab" Type="Int32" />
+    <Property Name="Year" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="courses" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="open_subjects" Relationship="Self.fk_tblsubject" FromRole="tblsubject" ToRole="open_subjects" />
+  </EntityType>
+  <EntityType Name="tblsubmun">
+    <Key>
+      <PropertyRef Name="submun_id" />
+    </Key>
+    <Property Name="submun_id" Type="Int32" Nullable="false" />
+    <Property Name="submun_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="muncit_id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tblmuncit" Relationship="Self.tblsubmun_ibfk_1" FromRole="tblsubmun" ToRole="tblmuncit" />
+    <NavigationProperty Name="tblsubbgies" Relationship="Self.tblsubbgy_ibfk_1" FromRole="tblsubmun" ToRole="tblsubbgy" />
+  </EntityType>
+  <Association Name="fk_tblsubject">
+    <End Role="tblsubject" Type="Self.tblsubject" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="open_subjects" Type="Self.open_subjects" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblsubject">
+        <PropertyRef Name="Subject_Code" />
+      </Principal>
+      <Dependent Role="open_subjects">
+        <PropertyRef Name="subject_code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="tblbgy_ibfk_1">
+    <End Role="tblmuncit" Type="Self.tblmuncit" Multiplicity="1" />
+    <End Role="tblbgy" Type="Self.tblbgy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblmuncit">
+        <PropertyRef Name="muncit_id" />
+      </Principal>
+      <Dependent Role="tblbgy">
+        <PropertyRef Name="muncit_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="tblmuncit_ibfk_1">
+    <End Role="tblprov" Type="Self.tblprov" Multiplicity="1" />
+    <End Role="tblmuncit" Type="Self.tblmuncit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblprov">
+        <PropertyRef Name="prov_id" />
+      </Principal>
+      <Dependent Role="tblmuncit">
+        <PropertyRef Name="prov_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="tblsubmun_ibfk_1">
+    <End Role="tblmuncit" Type="Self.tblmuncit" Multiplicity="1" />
+    <End Role="tblsubmun" Type="Self.tblsubmun" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblmuncit">
+        <PropertyRef Name="muncit_id" />
+      </Principal>
+      <Dependent Role="tblsubmun">
+        <PropertyRef Name="muncit_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="tblprov_ibfk_1">
+    <End Role="tblreg" Type="Self.tblreg" Multiplicity="1" />
+    <End Role="tblprov" Type="Self.tblprov" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblreg">
+        <PropertyRef Name="reg_id" />
+      </Principal>
+      <Dependent Role="tblprov">
+        <PropertyRef Name="reg_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="tblsubbgy_ibfk_1">
+    <End Role="tblsubmun" Type="Self.tblsubmun" Multiplicity="1" />
+    <End Role="tblsubbgy" Type="Self.tblsubbgy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblsubmun">
+        <PropertyRef Name="submun_id" />
+      </Principal>
+      <Dependent Role="tblsubbgy">
+        <PropertyRef Name="submun_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="classscheduleEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="open_subjects" EntityType="Self.open_subjects" />
+    <EntitySet Name="tbl_room_schedule_backup" EntityType="Self.tbl_room_schedule_backup" />
+    <EntitySet Name="tblaccounts" EntityType="Self.tblaccount" />
+    <EntitySet Name="tblbgies" EntityType="Self.tblbgy" />
+    <EntitySet Name="tblcourses" EntityType="Self.tblcourse" />
+    <EntitySet Name="tblins" EntityType="Self.tblin" />
+    <EntitySet Name="tblmuncits" EntityType="Self.tblmuncit" />
+    <EntitySet Name="tblprovs" EntityType="Self.tblprov" />
+    <EntitySet Name="tblregs" EntityType="Self.tblreg" />
+    <EntitySet Name="tblrooms" EntityType="Self.tblroom" />
+    <EntitySet Name="tblscheds" EntityType="Self.tblsched" />
+    <EntitySet Name="tblschoolyrs" EntityType="Self.tblschoolyr" />
+    <EntitySet Name="tblsubbgies" EntityType="Self.tblsubbgy" />
+    <EntitySet Name="tblsubjects" EntityType="Self.tblsubject" />
+    <EntitySet Name="tblsubmuns" EntityType="Self.tblsubmun" />
+    <AssociationSet Name="fk_tblsubject" Association="Self.fk_tblsubject">
+      <End Role="tblsubject" EntitySet="tblsubjects" />
+      <End Role="open_subjects" EntitySet="open_subjects" />
+    </AssociationSet>
+    <AssociationSet Name="tblbgy_ibfk_1" Association="Self.tblbgy_ibfk_1">
+      <End Role="tblmuncit" EntitySet="tblmuncits" />
+      <End Role="tblbgy" EntitySet="tblbgies" />
+    </AssociationSet>
+    <AssociationSet Name="tblmuncit_ibfk_1" Association="Self.tblmuncit_ibfk_1">
+      <End Role="tblprov" EntitySet="tblprovs" />
+      <End Role="tblmuncit" EntitySet="tblmuncits" />
+    </AssociationSet>
+    <AssociationSet Name="tblsubmun_ibfk_1" Association="Self.tblsubmun_ibfk_1">
+      <End Role="tblmuncit" EntitySet="tblmuncits" />
+      <End Role="tblsubmun" EntitySet="tblsubmuns" />
+    </AssociationSet>
+    <AssociationSet Name="tblprov_ibfk_1" Association="Self.tblprov_ibfk_1">
+      <End Role="tblreg" EntitySet="tblregs" />
+      <End Role="tblprov" EntitySet="tblprovs" />
+    </AssociationSet>
+    <AssociationSet Name="tblsubbgy_ibfk_1" Association="Self.tblsubbgy_ibfk_1">
+      <End Role="tblsubmun" EntitySet="tblsubmuns" />
+      <End Role="tblsubbgy" EntitySet="tblsubbgies" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

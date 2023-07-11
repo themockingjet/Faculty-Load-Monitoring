@@ -1,0 +1,294 @@
+﻿<Page x:Class="WpfApp1.MainP2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1"
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="1166"
+      Title="MainP2">
+
+    <Page.Resources>
+        <Style TargetType="{x:Type Border}" x:Key="MyButtonStyle">
+            <Setter Property="Button.Background">
+                <Setter.Value>
+                    <SolidColorBrush Color="White" Opacity="0.1"/>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+
+                <!-- Animates the button's opacity on mouse over. -->
+                <EventTrigger RoutedEvent="Border.MouseEnter">
+                    <EventTrigger.Actions>
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation
+                  Storyboard.TargetProperty="(Border.Opacity)"
+                  From="1.0" To="0.1" Duration="0:0:0.5" AutoReverse="True"
+                  RepeatBehavior="Forever" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+
+                <!-- Returns the button's opacity to 1 when the mouse leaves. -->
+                <EventTrigger RoutedEvent="Border.MouseLeave">
+                    <EventTrigger.Actions>
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation
+                  Storyboard.TargetProperty="(Border.Opacity)"
+                  To="1" Duration="0:0:0.1" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+            </Style.Triggers>
+        </Style>
+    </Page.Resources>
+
+    <StackPanel Orientation="Vertical">
+        <StackPanel Orientation="Horizontal" Height="350" HorizontalAlignment="Center">
+            <Border CornerRadius="5" BorderThickness="0,3,0,3" BorderBrush="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="260" Height="260" Margin="0,0,2.5,0" Cursor="Hand" Style="{StaticResource MyButtonStyle}">
+                <Button Click="Btn_schedins_Click" Name="btn_schedins" FontWeight="ExtraBold" Content="INSTRUCTORS" Foreground="#2B3D54" FontFamily="Lovelo" FontSize="35" Background="Transparent" ClipToBounds="True" HorizontalContentAlignment="Center">
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type Button}">
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="Auto"/>
+                                                <RowDefinition Height="1*"/>
+                                            </Grid.RowDefinitions>
+                                            <Image Grid.Row="0" Source="img/lteach.png" Height="130" Width="130" Margin="0,35,0,0">
+                                                <Image.Effect>
+                                                    <DropShadowEffect Color="#FF727272" ShadowDepth="10"/>
+                                                </Image.Effect>
+                                            </Image>
+                                            <StackPanel Grid.Row="1" Orientation="Vertical" VerticalAlignment="Bottom">
+                                                <TextBlock FontSize="20" Text="Schedules per" Background="{TemplateBinding Background}" HorizontalAlignment="Center" VerticalAlignment="Bottom" >
+                                                </TextBlock>
+                                                <TextBlock Text="instructors" Background="{TemplateBinding Background}" HorizontalAlignment="Center" VerticalAlignment="Bottom" >
+                                                </TextBlock>
+                                            </StackPanel>
+                                        </Grid>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="Transparent"/>
+                                    <Setter Property="Foreground" Value="White"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                </Button>
+            </Border>
+            <Border CornerRadius="5" BorderThickness="0,3,0,3" BorderBrush="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="260" Height="260" Margin="2.5,0,2.5,0" Cursor="Hand" Style="{StaticResource MyButtonStyle}">
+                <Button Click="Btn_schedroom_Click" Name="btn_schedroom" FontWeight="ExtraBold" Content="SUBJECT LIST" Foreground="#2B3D54" FontFamily="Lovelo" FontSize="35" Background="Transparent" BorderThickness="0" ClipToBounds="True"  HorizontalContentAlignment="Center">
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Padding" Value="0"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type Button}">
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="Auto"/>
+                                                <RowDefinition Height="1*"/>
+                                            </Grid.RowDefinitions>
+                                            <Image Grid.Row="0" Source="img/lsub.png" Height="128" Width="128" Margin="0,35,0,0">
+                                                <Image.Effect>
+                                                    <DropShadowEffect Color="#FF727272" ShadowDepth="10"/>
+                                                </Image.Effect>
+                                            </Image>
+                                            <StackPanel Grid.Row="1" Orientation="Vertical" VerticalAlignment="Bottom">
+                                                <TextBlock FontSize="20" Text="schedules per" Background="{TemplateBinding Background}" HorizontalAlignment="Center" VerticalAlignment="Bottom" >
+                                                </TextBlock>
+                                                <TextBlock Text="rooms" Background="{TemplateBinding Background}" HorizontalAlignment="Center" VerticalAlignment="Bottom" >
+                                                </TextBlock>
+                                            </StackPanel>
+                                        </Grid>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="Transparent"/>
+                                    <Setter Property="Foreground" Value="White"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                </Button>
+            </Border>
+            <Border CornerRadius="5" BorderThickness="0,3,0,3" BorderBrush="Black" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="260" Height="260" Margin="2,0,2.5,0" Cursor="Hand" Style="{StaticResource MyButtonStyle}">
+                <Button Click="Btn_schedsec_Click" Name="btn_schedsec" FontWeight="ExtraBold" Foreground="#2B3D54" FontFamily="Lovelo" FontSize="35" Background="Transparent" BorderThickness="0" ClipToBounds="True" HorizontalContentAlignment="Center">
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Padding" Value="0"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type Button}">
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="Auto"/>
+                                                <RowDefinition Height="1*"/>
+                                            </Grid.RowDefinitions>
+                                            <Image Grid.Row="0" Source="img/lsuboc.png" Height="128" Width="128" Margin="0,35,0,0">
+                                                <Image.Effect>
+                                                    <DropShadowEffect Color="#FF727272" ShadowDepth="10"/>
+                                                </Image.Effect>
+                                            </Image>
+                                            <StackPanel Grid.Row="1" Orientation="Vertical" VerticalAlignment="Bottom">
+                                                <TextBlock FontSize="20" Text="schedule per" Background="{TemplateBinding Background}" HorizontalAlignment="Center" VerticalAlignment="Bottom" >
+                                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                                </TextBlock>
+                                                <TextBlock Text="section" Background="{TemplateBinding Background}" HorizontalAlignment="Center" VerticalAlignment="Bottom" >
+                                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                                </TextBlock>
+                                            </StackPanel>
+                                        </Grid>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="Transparent"/>
+                                    <Setter Property="Foreground" Value="White"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                </Button>
+            </Border>
+            
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Height="350" HorizontalAlignment="Center">
+            <Border CornerRadius="5" BorderThickness="0,3,0,3" BorderBrush="Black" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top" Width="260" Height="260" Margin="2.5,5,2,0" Cursor="Hand" Style="{StaticResource MyButtonStyle}">
+                <Button Click="Btn_user_Click" Name="btn_user" FontWeight="ExtraBold" Content="SCHEDULES" Foreground="#2B3D54" FontFamily="Lovelo" FontSize="35" Background="Transparent" BorderThickness="0" ClipToBounds="True" HorizontalContentAlignment="Center">
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Padding" Value="0"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type Button}">
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="Auto"/>
+                                                <RowDefinition Height="1*"/>
+                                            </Grid.RowDefinitions>
+                                            <Image Grid.Row="0" Source="img/lcal.png" Height="150" Width="150" Margin="0,30,0,0">
+                                                <Image.Effect>
+                                                    <DropShadowEffect Color="#FF727272" ShadowDepth="10"/>
+                                                </Image.Effect>
+                                            </Image>
+                                            <StackPanel Grid.Row="1" Orientation="Vertical" VerticalAlignment="Bottom">
+                                                <TextBlock FontSize="20" Text="manage" Background="{TemplateBinding Background}" HorizontalAlignment="Center" VerticalAlignment="Bottom" >
+
+                                                </TextBlock>
+                                                <TextBlock Text="Schedules" Background="{TemplateBinding Background}" HorizontalAlignment="Center" VerticalAlignment="Bottom" >
+
+                                                </TextBlock>
+                                            </StackPanel>
+
+                                        </Grid>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="Transparent"/>
+                                    <Setter Property="Foreground" Value="White"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                </Button>
+            </Border>
+            <Border Style="{StaticResource MyButtonStyle}" CornerRadius="5" BorderThickness="0,3,0,3" BorderBrush="Black" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top" Width="260" Height="260" Margin="2,5,2.5,0" Cursor="Hand">
+                <Button Click="Btn_sy_Click" Name="btn_sy" FontWeight="ExtraBold" Foreground="#2B3D54" FontFamily="Lovelo" FontSize="35" Background="Transparent" BorderThickness="0" ClipToBounds="True" HorizontalContentAlignment="Center">
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Padding" Value="0"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type Button}">
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="Auto"/>
+                                                <RowDefinition Height="1*"/>
+                                            </Grid.RowDefinitions>
+                                            <Image Grid.Row="0" Source="img/lsy.png" Height="150" Width="150" Margin="0,30,0,0">
+                                                <Image.Effect>
+                                                    <DropShadowEffect Color="#FF727272" ShadowDepth="10"/>
+                                                </Image.Effect>
+                                            </Image>
+                                            <StackPanel Grid.Row="1" Orientation="Vertical" VerticalAlignment="Bottom">
+                                                <TextBlock FontSize="20" Text="academic years and" Background="{TemplateBinding Background}" HorizontalAlignment="Center" VerticalAlignment="Bottom" >
+
+                                                </TextBlock>
+                                                <TextBlock Text="Semesters" Background="{TemplateBinding Background}" HorizontalAlignment="Center" VerticalAlignment="Bottom" >
+
+                                                </TextBlock>
+                                            </StackPanel>
+                                        </Grid>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="Transparent"/>
+                                    <Setter Property="Foreground" Value="White"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                </Button>
+            </Border>
+            <Border Style="{StaticResource MyButtonStyle}" CornerRadius="5" BorderThickness="0,3,0,3" BorderBrush="Black" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top" Width="260" Height="260" Margin="2.5,5,0,0" Cursor="Hand">
+                <Button Name="btn_backuprestore" FontWeight="ExtraBold" Content="Backup &amp; restore" Foreground="#2B3D54" FontFamily="Lovelo" FontSize="35" Background="Transparent" BorderThickness="0" ClipToBounds="True" HorizontalContentAlignment="Center"
+                                Click="Btn_backuprestore_Click">
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Padding" Value="0"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type Button}">
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="Auto"/>
+                                                <RowDefinition Height="1*"/>
+                                            </Grid.RowDefinitions>
+                                            <Image Source="img/Backup.png" Grid.Row="0" Height="130" Width="130" Margin="0,40,0,0" VerticalAlignment="Top">
+                                                <Image.Effect>
+                                                    <DropShadowEffect Color="#FF727272" ShadowDepth="10"/>
+                                                </Image.Effect>
+                                            </Image>
+                                            <StackPanel Grid.Row="1" Orientation="Vertical" VerticalAlignment="Bottom">
+                                                <TextBlock FontSize="20" Text="BACKUP AND" Background="{TemplateBinding Background}" HorizontalAlignment="Center" VerticalAlignment="Bottom" >
+
+                                                </TextBlock>
+                                                <TextBlock Text="RESTORE" Background="{TemplateBinding Background}" HorizontalAlignment="Center" VerticalAlignment="Bottom" >
+
+                                                </TextBlock>
+                                            </StackPanel>
+                                        </Grid>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="Transparent"/>
+                                    <Setter Property="Foreground" Value="White"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                </Button>
+            </Border>
+        </StackPanel>
+    </StackPanel>
+</Page>
